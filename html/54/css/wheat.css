@@ -1,0 +1,48 @@
+nav{
+    text-align: center;
+    padding-bottom: 50px;
+}
+h1{
+    text-align: center;
+    color: #5A1019;
+    border: 2px; border-style: dashed; border-color: #5A1019;
+    text-shadow: 8px,8px,8px black;
+    margin-top: 85px;
+    padding:50px;
+    
+    
+}
+#copy{
+    font-style:italic;
+    font-size: 12px;
+    padding-top: 250px;
+}
+body{
+    text-align: center;
+    letter-spacing: 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:  25px; ;
+    margin: auto;
+    
+    max-width: 800px;
+    overflow:auto;
+    padding: 40px;
+
+}
+p{
+    text-align: center;
+    
+    
+}
+a{
+    color:black;
+    text-decoration: none;
+    
+}
+a:visited{
+    color:#5A1019;
+}
+
+a:hover{
+    color: beige;
+}
