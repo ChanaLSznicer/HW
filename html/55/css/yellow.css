@@ -1,0 +1,21 @@
+html{
+    background-color: black;
+}
+body{
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+.box{
+    width: 300px;
+    /*height: 8em;*/
+    padding: 3.5em 0;
+    background-color: yellow;
+    border: 1px solid black;
+    /*float: left;*/
+    box-sizing: border-box;
+    margin: 50px;
+    display: inline-block;
+    text-align: center;
+
+}
