@@ -1,0 +1,87 @@
+nav{
+    text-align: center;
+    padding-bottom: 50px;
+   
+}
+.logo img{
+    display: inline-block;
+    text-align: center;
+    color: #5A1019;
+    /*border: 2px; border-style: dashed; border-color: #5A1019;*/
+    text-shadow: 8px,8px,8px black;
+    margin-top: 85px;
+    padding:50px;
+    width: 40%;
+    
+    /*background: rgb(149,123,106);
+    background: linear-gradient(90deg, rgba(149,123,106,1) 0%, rgba(149,123,106,1) 17%, rgba(234,229,208,1) 100%);
+    opacity: .25;*/
+   
+    
+    
+    
+}
+.vid video{
+    display: inline-block;
+    
+    text-align: center;
+    width: 800px;
+}
+.vid{
+    
+    text-align: center;
+}
+#copy{
+    font-style:italic;
+    font-size: 12px;
+    padding-top: 250px;
+}
+body{
+    text-align: center;
+    letter-spacing: 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:  25px; ;
+    margin: auto;
+    
+    max-width: 800px;
+    overflow:auto;
+    padding: 40px;
+    background-image: url("../Images/bgPattern-01.jpg");
+    background-repeat: no-repeat;
+    /*background-position: 50px 100px;*/
+    background-position: center center,top right;
+    background-size: contain;
+    background-size: cover;
+    opacity: 30;
+    
+
+
+}
+p{
+    text-align: center;
+    
+    
+}
+a{
+    color:black;
+    text-decoration: none;
+    
+}
+a:visited{
+    color:#5A1019;
+}
+
+a:hover{
+    color: beige;
+}
+.button{
+    background-image:url("Images/buttons.wheat-01.jpg");
+    height:200px;
+    width:159px;
+}
+.vid{
+    height: 2em;
+    width: 4em;
+    position: center;
+    
+}
