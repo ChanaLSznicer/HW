@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="css/wheat.css">
+</head>
+
+<body>
+    <div class ="logo">
+        <a href="Index.html"><img src="Images/tabName-01.png" width="400"alt="Delicious Sourdough Bread"></a>   
+    </div>
+   
+    <form method="POST">
+        <label>
+          First Name:
+          <input name="firstName"  placeholder="enter first name" minlength="3" maxlength="5" required/>
+        </label>
+  
+        <label for="lastName">Last Name: </label>
+        <input id="lastName" name="lastName" placeholder="enter last name"/>
+  
+  
+        <label>
+          Age:
+          <input type="number" name="number" min="0" max="120" step="any"/>
+        </label>
+  
+        <label>
+          Email:
+          <input type="email" name="email" />
+        </label>
+  
+        
+  
+        <label>
+          Deliver On:
+          <input type="date" name="date" value="2000-01-01" />
+        </label>
+  
+  
+    <input type="submit"/>
+  
+        
+      </form> 
+</body>
+</html>

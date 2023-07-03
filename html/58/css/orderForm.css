@@ -1,0 +1,13 @@
+body{
+
+    width:60%;
+    margin: auto;
+    display: block;
+
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: .5em;
+  }
+ 

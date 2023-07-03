@@ -1,0 +1,59 @@
+h1{
+  text-align: center;
+}
+table {
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    
+  }
+  .home{
+    margin: auto;
+  }
+
+
+  td,
+  th {
+    /*border: 1px solid black;*/
+    border-bottom: 1px solid black;
+    padding: .5em;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  tfoot {
+    /*color: red;*/
+    background-color:rgb(159, 164, 142);
+    color: white;
+  }
+
+  caption {
+    caption-side: bottom;
+  }
+  table tbody tr:hover {
+    background-color: rgb(159, 164, 142); /*!important;*/
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #5A1019;
+    color: antiquewhite;
+  }
+
+  #it {
+    color: red;
+  }
+
+  .special {
+    color: green;
+  }
+
+  p {
+    color: yellow;
+  }
+
+  #it p.special {
+    font-size: 2em;
+  }
