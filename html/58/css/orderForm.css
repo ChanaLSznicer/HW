@@ -1,13 +1,16 @@
 body{
-
     width:60%;
     margin: auto;
     display: block;
-
+    text-align: center;
 }
 input {
     display: block;
     width: 100%;
     margin-bottom: .5em;
   }
- 
+input[b="n"]{
+  width: 25%;
+  margin: auto;
+  margin-top: 2em;
+}
