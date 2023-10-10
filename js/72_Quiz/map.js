@@ -12,15 +12,17 @@
 
     function ourMap(theArray, callbackFn) {
         const newArray = [];
-        
+
         theArray.forEach(elem => newArray.push(callbackFn(elem)));
-    
+
         return newArray;
 
-        
-    
+
+
     }
     const a =  ourMap(numbs, a => a * 6);
     console.log(a);
     console.log(numbs);
 })();
+
+// SL - nice!
