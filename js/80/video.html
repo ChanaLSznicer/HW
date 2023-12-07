@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        html,body,#sidebar,video{
+            height: 100%;
+            margin: 0;
+        }
+       
+
+        #sidebar {
+        float: left;
+        width: 25%;
+        border-right: 1px solid black;
+        box-sizing: border-box;
+        overflow: auto;
+      }
+        #theVid{
+            float: right;
+            width: 75%
+
+        }
+        #sidebar ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        #sidebar li {
+        border: 2px solid black;
+        margin-bottom: 1em;
+        cursor: pointer;
+        }
+        img{
+            width: 50px;
+        }
+        #sidebar li.active{
+            border-color: red;
+
+        }
+        .loaded{
+            display: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2 id="loading"> your videos are loading</h2>
+
+    <div id="sidebar" class="loaded"> <ul> </ul> </div>
+    
+    <video id="theVid" controls autoplay></video>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+   
+    <script src="video.js"></script>
+</body>
+</html>

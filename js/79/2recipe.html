@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align:center;
+        }
+        .recipe{
+           display: none; 
+        }
+        #pic{
+            width: 200px;
+        }
+        #ingredients{
+            list-style-type: none;
+            padding:0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pcs Recipes</h1>
+    <hr>
+    <select id="recipes">
+        <option hidden>please choose a recipe</option>
+    </select>
+    <div class="recipe">
+
+        <h2 id="name"></h2>
+        <img id="pic"/>
+        <h3>ingredients</h3>
+        <ul id="ingredients"></ul>
+
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="2recipe.js"></script>
+</body>
+</html>

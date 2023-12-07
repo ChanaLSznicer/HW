@@ -1,0 +1,16 @@
+[
+
+    {
+        "name": "choir",
+        "url":  "media/El Hanaar Hazeh.mp4",
+        "picture": "media/kiddos.jpeg"
+        
+    },
+
+    {
+        "name": "ivri",
+        "url":  "media/ivri.mp4",
+        "picture": "media/kiddos.jpeg"
+        
+    }
+]

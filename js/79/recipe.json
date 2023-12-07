@@ -1,0 +1,16 @@
+[
+    {
+        "name": "cholent",
+        "id": 1
+    },
+    
+    {
+        "name": "soup",
+        "id": 2
+    },
+    
+    {
+        "name": "pasta",
+        "id": 3
+    }
+]
